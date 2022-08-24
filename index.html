@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- meta tag -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- tittle -->
+    <title>Document</title>
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@600;700;800&family=Roboto:wght@300;400&display=swap"
+        rel="stylesheet">
+
+    <!-- css link -->
+    <link rel="stylesheet" href="./resources/css/uikit.min.css">
+    <link rel="stylesheet" href="./vendors/css/normalize.css">
+    <link rel="stylesheet" href="./resources/css/style.css">
+    <link rel="stylesheet" href="./resources/css/query.css">
+
+    <meta name="theme-color" content="#ff2b4a">
+</head>
+
+<body>
+    <!-- start nhp section  -->
+    <header id="nhp">
+        <nav class="nav clearfix" uk-sticky="start: 200; animation: uk-animation-slide-top">
+            <div class="container">
+                <div class="logo">
+                    <a href="#">
+                        <img src="./resources/img/nav-logo.png" alt="paul">
+                    </a>
+                </div>
+                <div class="menu"  onclick="openMenu();">
+                    <a href="#">
+                        <ion-icon name="menu-outline"></ion-icon>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <div class="menu-container" id="menu-container" onclick="closeMenu();">
+            <div class="container">
+                <div class="close-btn">
+                    <a href=""><ion-icon name="close"></ion-icon></a>
+                </div>
+                <ul class="menu-item">
+                    <li><a href="#home" onclick="closeMenu();">home</a></li>
+                    <li><a href="#about" onclick="closeMenu();">about</a></li>
+                    <li><a href="#process" onclick="closeMenu();">process</a></li>
+                    <li><a href="#exp" onclick="closeMenu();">experience</a></li>
+                    <li><a href="#work" onclick="closeMenu();">work</a></li>
+                    <li><a href="#tm" onclick="closeMenu();">testinonial</a></li>
+                    <li><a href="#contact" onclick="closeMenu();">contact</a></li>
+                    <li><a href="#footer" onclick="closeMenu();">footer</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="nhp-content">
+            <h1>Paul Lapkin</h1>
+            <span>#User Experience #Music #Creative Direction</span>
+        </div>
+        <div class="nhp-next-down">
+            <a href="#about">
+                <ion-icon name="arrow-down-circle-outline"></ion-icon>
+            </a>
+            
+        </div>
+    </header>
+    <!-- end nhp section  -->
+
+    <!-- start about section  -->
+    <section id="about">
+        <div class="container">
+            <div class="ab-grid">
+                <div class="ab-grid-item">
+                    <img src="./resources/img/ab-paul.jpg" alt="image">
+                </div>
+                <div class="ab-grid-item">
+                    <h4>Hi, i’m Paul Lapkin, Experience Crafter from Canada.</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                        ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
+                        tation ullamcorper suscipit lobortis nisl ut aliquipex ea commodo consequat.
+                        <br><br>
+                        Duis autem vel eum iriure dolorin hendrerit in vulputate velit esse molestie consequat, vel
+                        illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
+                        blandit praesent luptatum zzril delenit augue duis dolore.</p>
+                    <div class="ab-btn">
+                        <a href="#" class="btn btn-full">hire me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end about section  -->
+
+    <!-- start process section  -->
+    <section id="process">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Working Process</h2>
+                <span>Hi, i’m Paul Lapkin, Experience Crafter from Canada.</span>
+            </div>
+            <div class="process-grid">
+                <div class="process-grid-item">
+                    <img src="./resources/img/process-monitor-icon.png" alt="Monitor">
+                    <h4>Design</h4>
+                </div>
+                <div class="process-grid-item">
+                    <img src="./resources/img/process-magic wand-icon.png" alt="Development">
+                    <h4>Development</h4>
+                </div>
+                <div class="process-grid-item">
+                    <img src="./resources/img/process-testing-icon.png" alt="Testing">
+                    <h4>Testing</h4>
+                </div>
+                <div class="process-grid-item">
+                    <img src="./resources/img/process-plane-icon.png" alt="Launch">
+                    <h4>Launch</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end process section  -->
+
+    <!-- start experience section  -->
+    <section id="exp">
+        <div class="container">
+            <div class="exp-grid">
+                <div class="exp-grid-item">
+                    <h2>Work Experience</h2>
+                    <div class="exp-job">
+                        <h4>Mad Max Design</h4>
+                        <span>OCT 2013 - june 2014</span>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                            tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    </div>
+                    <hr>
+                    <div class="exp-job">
+                        <h4>Crazy Design</h4>
+                        <span>OCT 2014 - june 2015</span>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                            tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    </div>
+                </div>
+                <div class="exp-grid-item">
+                    <h2>Education</h2>
+                    <div class="exp-job">
+                        <h4>Mad Max Design</h4>
+                        <span>OCT 2013 - june 2014</span>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                            tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    </div>
+                    <hr>
+                    <div class="exp-job">
+                        <h4>Crazy Design</h4>
+                        <span>OCT 2014 - june 2015</span>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                            tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end experience section  -->
+
+    <!-- start work section  -->
+    <section id="work">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Latest Works</h2>
+                <span>Hi, i’m Paul Lapkin, Experience Crafter from Canada.</span>
+            </div>
+            <div class="work-filter">
+                <button type="button" data-filter="all">all</button>
+                <button type="button" data-filter=".web-design">web design</button>
+                <button type="button" data-filter=".web-development">web development</button>
+                <button type="button" data-filter=".wordpress">wordpress</button>
+            </div>
+            <div class="work-grid" uk-grid uk-lightbox="animation: scale">
+                <div class="work-grid-item mix web-design" data-caption="web design">
+                    <a href="./resources/img/work (13).jpg">
+                        <img src="./resources/img/work (13).jpg" alt="image">
+                    </a>
+                </div>
+                <div class="work-grid-item mix web-design" data-caption="web design">
+                    <a href="./resources/img/work (12).jpg">
+                        <img src="./resources/img/work (12).jpg" alt="image">
+                    </a>
+                </div>
+                <div class="work-grid-item mix web-design" data-caption="web design">
+                    <a href="./resources/img/work (11).jpg">
+                        <img src="./resources/img/work (11).jpg" alt="image">
+                    </a>
+                </div>
+                <div class="work-grid-item mix web-design" data-caption="web design">
+                    <a href="./resources/img/work (10).jpg">
+                        <img src="./resources/img/work (10).jpg" alt="image">
+                    </a>
+                </div>
+                <div class="work-grid-item mix web-development" data-caption="web development">
+                    <a href="./resources/img/work (9).jpg">
+                        <img src="./resources/img/work (9).jpg" alt="image">
+                    </a>
+                </div>
+                <div class="work-grid-item mix web-development" data-caption="web development">
+                    <a href="./resources/img/work (8).jpg">
+                        <img src="./resources/img/work (8).jpg" alt="image">
+                    </a>
+                </div>
+                <div class="work-grid-item mix web-development" data-caption="web development">
+                    <a href="./resources/img/work (7).jpg">
+                        <img src="./resources/img/work (7).jpg" alt="image">
+                    </a>
+                </div>
+                <div class="work-grid-item mix web-development" data-caption="web development">
+                    <a href="./resources/img/work (6).jpg">
+                        <img src="./resources/img/work (6).jpg" alt="image">
+                    </a>
+                </div>
+                <div class="work-grid-item mix wordpress" data-caption="wordpress">
+                    <a href="./resources/img/work (5).jpg">
+                        <img src="./resources/img/work (5).jpg" alt="image">
+                    </a>
+                </div>
+                <div class="work-grid-item mix wordpress" data-caption="wordpress">
+                    <a href="./resources/img/work (4).jpg">
+                        <img src="./resources/img/work (4).jpg" alt="image">
+                    </a>
+                </div>
+                <div class="work-grid-item mix wordpress" data-caption="wordpress">
+                    <a href="./resources/img/work (3).jpg">
+                        <img src="./resources/img/work (3).jpg" alt="image">
+                    </a>
+                </div>
+                <div class="work-grid-item mix wordpress" data-caption="wordpress">
+                    <a href="./resources/img/work (2).jpg">
+                        <img src="./resources/img/work (2).jpg" alt="image">
+                    </a>
+                </div>
+                <div class="work-grid-item mix web-design" data-caption="web design">
+                    <a href="./resources/img/work (1).jpg">
+                        <img src="./resources/img/work (1).jpg" alt="image">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end work section  -->
+
+    <!-- start testimonial section  -->
+    <section id="tm">
+        <div class="container">
+            <div class="tm-grid">
+                <div class="tm-grid-item">
+                    <img src="./resources/img/testimonial-quote.png" alt="image" class="quote">
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                        ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
+                        tation ullamcorper suscipit lobortis nisl ut aliquipex ea commodo consequat.</p>
+                    <img src="./resources/img/testimonial-signature.png" alt="image" class="signature">
+                    <h4>NH Pahel</h4>
+                    <span>Creative Designer</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end testimonial section  -->
+
+    <!-- start  contact section  -->
+    <section id="contact">
+        <div class="container">
+            <div class="ct-grid">
+                <div class="ct-grid-item">
+                    <h2>Leave a message</h2>
+                    <form action="#" method="post">
+                        <input type="text" name="name" placeholder="Name*" required>
+                        <input type="email" name="email" placeholder="Email*" required>
+                        <input type="text" name="subject" placeholder="Subject*" required>
+                        <textarea name="message" placeholder="Message*" required></textarea>
+                        <div class="sub-btn">
+                            <input type="submit" value="Hire Me" class="btn btn-full">
+                        </div>
+                    </form>
+                </div>
+                <div class="ct-grid-item">
+                    <div class="nested-ct-grid">
+                        <div class="nested-ct-grid-item">
+                            <h2>Address</h2>
+                            <p>Gulshan Sales Office. SA Tower (Level-5), Plot#1, Road#134, Block SE(A), Gulshan-1, Dhaka
+                                1212.</p>
+                        </div>
+                        <div class="nested-ct-grid-item">
+                            <h2>Phone</h2>
+                            <p>Gulshan Sales Office. SA Tower (Level-5), Plot#1, Road#134, Block SE(A), Gulshan-1, Dhaka
+                                1212.</p>
+                        </div>
+                        <div class="nested-ct-grid-item">
+                            <h2>Web</h2>
+                            <p>Gulshan Sales Office. SA Tower (Level-5), Plot#1, Road#134, Block SE(A), Gulshan-1, Dhaka
+                                1212.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end contact section  -->
+
+    <!-- start footer section  -->
+    <footer id="footer">
+        <div class="container">
+            <ul class="social-list">
+                <li>
+                    <a href="">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <ion-icon name="globe-outline"></ion-icon>
+                    </a>
+                </li>
+            </ul>
+            <p class="copyright">Copyright: <strong style="color: #D53288;">NHP</strong> | All right reserved</p>
+            <div class="totop">
+                <a href="#" uk-totop uk-scroll></a>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer section  -->
+
+
+
+    <!-- js file -->
+    <script src="./vendors/js/jquery-3.6.0.min.js"></script>
+    <script src="./vendors/js/modernizr-3.11.2.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="./vendors/js/mixitup.min.js"></script>
+    <script src="./vendors/js/uikit.min.js"></script>
+    <script src="./vendors/js/uikit-icons.min.js"></script>
+    <script src="./vendors/js/particles.min.js"></script>
+    <script src="./vendors/js/app.js"></script>
+    <script src="./resources/js/main.js"></script>
+</body>
+
+</html>
